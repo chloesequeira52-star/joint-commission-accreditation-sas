@@ -164,26 +164,31 @@ This project demonstrates:
 - Public health analytics
 
 ---
-
 ## Files Included
 
 **analysis.sas**  
-Complete SAS workflow and statistical analysis
+Complete SAS workflow including data simulation, readiness score creation, logistic regression modeling, risk prediction, and visualization procedures
 
 **simulated_jointcommission_data.csv**  
-Simulated hospital dataset
+Simulated hospital dataset modeled around Joint Commission-inspired patient safety concepts
 
 **odds_ratio_plot.png**  
-Logistic regression odds ratio visualization
+Odds ratio visualization from logistic regression showing predictors of accreditation risk
 
 **readiness_score_chart.png**  
-Average readiness score by hospital type
+Average accreditation readiness score across hospital types
+
+**correlation_matrix.png**  
+Pearson correlation matrix displaying relationships among patient safety and accreditation-related variables
 
 **top10_predicted_risk.png**  
-Hospitals ranked by predicted accreditation risk
+Top 10 hospitals ranked by predicted accreditation risk generated from logistic regression predicted probabilities
 
 **executive_summary.pdf**  
-Summary of methods and findings
+Executive summary of project objectives, methods, findings, and conclusions
+
+**data_dictionary.md**  
+Variable definitions and project documentation
 
 ---
 
