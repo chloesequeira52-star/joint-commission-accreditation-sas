@@ -159,3 +159,11 @@ format pred_prob percent8.2;
 title "Top 10 Hospitals at Highest Predicted Accreditation Risk";
 
 run;
+/* Export simulated dataset */
+
+proc export
+    data=hospital_model
+    outfile="/home/u64136090/sasuser.v94/simulated_jointcommission_data.csv"
+    dbms=csv
+    replace;
+run;
